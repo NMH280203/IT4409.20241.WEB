@@ -1,0 +1,26 @@
+spring:
+  messages:
+    encoding: UTF-8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/web_store_test
+    password: nguyenhieu2802
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: baiduongx4@gmail.com
+    password: nguyenhieu2802
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8084
